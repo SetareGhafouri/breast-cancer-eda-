@@ -1,0 +1,42 @@
+{
+  "n_samples": 569,
+  "class_counts": {
+    "benign": 357,
+    "malignant": 212
+  },
+  "corr_radius_perimeter": 0.9978552814938109,
+  "corr_radius_area": 0.9873571700566127,
+  "mean_radius_stats": {
+    "mean": 14.127291739894552,
+    "harmonic_mean": 13.349892508893035,
+    "median": 13.37,
+    "mode": 12.34,
+    "std": 3.5240488262120775,
+    "skewness": 0.9398934455576345,
+    "min": 6.981,
+    "Q1": 11.7,
+    "Q3": 15.78,
+    "max": 28.11
+  },
+  "normalised_range": [
+    0.0,
+    1.0
+  ],
+  "binning_rmse": {
+    "mean": 198.36504922121617,
+    "median": 201.59831618748936,
+    "boundary": 246.65596765457218
+  },
+  "perimeter_outliers_removed": 13,
+  "texture_outliers": {
+    "pooled": 7,
+    "within_benign": 18
+  },
+  "perimeter_outliers_malignant_share": 1.0,
+  "imputation": {
+    "values_masked": 164,
+    "std_before": 4.301035768166949,
+    "std_after": 4.245023760844441,
+    "fill_value": 19.618765432098765
+  }
+}
